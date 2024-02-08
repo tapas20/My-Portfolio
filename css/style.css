@@ -750,7 +750,16 @@ h3.my-profession
 {
     height: 50px;
     padding: 0 50px;
+    cursor: pointer;
 }
+.contact .contact-form span
+{
+    color: var(--text-black-900);
+    margin-top: -30px;
+    padding: 15px;
+    display: block;
+}
+/* === Social Link === */
 .contact .social a
 {
     padding: 10px;

@@ -53,7 +53,7 @@
                             <h3 class="hello">Hello, my name is <span class="name">Tapas Jyoti</span></h3>
                             <h3 class="my-profession">I' m a <span class="typing">web developer</span></h3>
                             <p>I'm a web Developer with extensive experience for over 1 year. My expertise is to create wbsite and many more...</p>
-                            <a href="#" class="btn">Download CV</a>
+                            <a href="image/portfolio/Tapas_Jyoti_Mohanta_Resume.pdf" download class="btn">Download CV</a>
                         </div>
                         <div class="home-img padd-15">
                             <img src="image/Tapas.jpg" alt="">
@@ -428,33 +428,41 @@
                     <!-- === Contact Form === -->
                     <div class="row">
                         <div class="contact-form padd-15">
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
+                            <form name="submit-to-google-sheet">
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" name="Name" class="form-control" placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="email" name="Email" class="form-control" placeholder="Email">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <textarea name="Message" class="form-control" id="" placeholder="Message"></textarea>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <button type="submit" class="btn">Send Message</button>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <button type="button" class="btn">Send Message</button>
-                                </div>
-                            </div>
+                            </form>
+                            <span id="msg"></span>
                         </div>
                     </div>
-                </div><div class="social">
+                    
+
+                <!-- === Social link === -->
+                <div class="social">
                     <a href="https://www.linkedin.com/in/tapas-jyoti/" target="_blank">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
