@@ -390,6 +390,13 @@ h3.my-profession
 {
     color: var(--skin-color);
 }
+.about .about-content .about-text p span
+{
+    color: var(--skin-color);
+    font-family: 'Clicker Script', cursive;
+    font-weight: 800;
+    font-size: 20px;
+}
 .about .about-content .about-text p{
     font-size: 16px;
     line-height: 25px;
