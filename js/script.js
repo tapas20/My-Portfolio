@@ -92,7 +92,7 @@
         }
 
         /* Contact  */
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzauOtQ6d5URPgOXKqEQW0sUwo9C4f6AMBOGppRL_D7vgpUK7KO0qLAyralrGTEkMSs5w/exec'
+        
         const form = document.forms['submit-to-google-sheet'];
         const msg = document.getElementById("msg");
       
