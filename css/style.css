@@ -165,8 +165,8 @@ ul {
 }
 .aside .logo a span {
   font-family: "Yellowtail", cursive;
-  font-size: 40px;
-  font-weight: 280;
+  font-size: 45px;
+  font-weight: 500;
 }
 .aside .logo a::before {
   content: "";
