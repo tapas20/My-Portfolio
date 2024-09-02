@@ -127,7 +127,36 @@ ul {
   background: var(--skin-color);
   transition: all 0.3s ease;
 }
-.btn:hover {
+.btn1 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+  color: white;
+  border-radius: 40px;
+  display: inline-block;
+  white-space: nowrap;
+  border: none;
+  background: var(--skin-color);
+  transition: all 0.3s ease;
+}
+.btn2 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+  color: white;
+  border-radius: 40px;
+  display: inline-block;
+  white-space: nowrap;
+  border: none;
+  background: var(--skin-color);
+  transition: all 0.3s ease;
+  margin-left: 2rem;
+}
+
+.btn1:hover {
+  transform: scale(1.05);
+}
+.btn2:hover {
   transform: scale(1.05);
 }
 .shadow-dark {
@@ -662,6 +691,17 @@ h3.my-profession {
   margin-top: -30px;
   padding: 15px;
   display: block;
+}
+
+.footer {
+  color: #fa5b0f;
+  margin-top: 80px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.footer a {
+  color: #1854b4;
 }
 /* === Social Link === */
 .contact .social a {
