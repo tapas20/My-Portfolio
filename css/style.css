@@ -150,7 +150,7 @@ ul {
   border: none;
   background: var(--skin-color);
   transition: all 0.3s ease;
-  margin-left: 2rem;
+  margin-top: 1rem;
 }
 
 .btn1:hover {
