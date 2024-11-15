@@ -787,4 +787,19 @@ h3.my-profession {
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .home-info .hello {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .my-profession {
+    font-size: 20px;
+  }
+  .typing {
+    font-size: 12px;
+  }
+  .home-info p{
+    font-size: small;
+  }
 }
