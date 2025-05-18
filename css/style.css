@@ -6,7 +6,7 @@
   --bg-black-50: #e8dfec;
   --text-black-900: #302e4d;
   --text-black-700: #504e70;
-  --skin-color: #fa5b0f; /* Added primary color variable */
+  --skin-color: #fa5b0f; 
   --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --transition: all 0.3s ease-in-out;
 }
@@ -1157,11 +1157,10 @@ h3.my-profession {
 /* Footer */
 .footer {
   color: var(--skin-color);
-  margin-top: 80px;
+  margin-top: 70px;
   text-align: center;
-  font-family: "Courgette", cursive;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18px;
-  padding: 20px 0;
 }
 
 .footer a {
