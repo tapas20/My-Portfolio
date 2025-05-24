@@ -926,6 +926,13 @@ h3.my-profession {
   padding: 0 15px;
 }
 
+/* Make the entire item a clickable link */
+.portfolio .portfolio-item a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
 .portfolio .portfolio-item-inner {
   border: 6px solid var(--bg-black-100);
   border-radius: 10px;
@@ -933,6 +940,7 @@ h3.my-profession {
   cursor: pointer;
   position: relative;
   transition: var(--transition);
+  height: 100%;
 }
 
 .portfolio .portfolio-item-inner:hover {
@@ -943,11 +951,19 @@ h3.my-profession {
 .portfolio .portfolio-item-inner .portfolio-img {
   position: relative;
   overflow: hidden;
+  height: 200px;
+}
+
+/* Ensure the image link fills the container */
+.portfolio .portfolio-item-inner .portfolio-img a {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
   width: 100%;
-  height: 200px;
+  height: 100%;
   display: block;
   object-fit: cover;
   transition: var(--transition);
@@ -967,6 +983,7 @@ h3.my-profession {
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 0;
   transition: var(--transition);
+  pointer-events: none; /* Allow clicks to pass through */
 }
 
 .portfolio .portfolio-item-inner:hover .portfolio-img::after {
@@ -987,6 +1004,7 @@ h3.my-profession {
   background-color: var(--skin-color);
   padding: 10px 20px;
   border-radius: 30px;
+  pointer-events: none; /* Allow clicks to pass through */
 }
 
 .portfolio .portfolio-item-inner:hover .portfolio-img .view-project {
